@@ -75,7 +75,7 @@ jobs:
       - name: Checkout qcom-build-utils
         uses: actions/checkout@v5
         with:
-          repository: qualcomm-linux/qcom-build-utils
+          repository: qti-sbojja/qcom-build-utils
           ref: ${{inputs.qcom-build-utils-ref}}
           path: ./qcom-build-utils
           fetch-depth: 1
